@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.contact-info, .contact-form, .additional-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p, .additional-info p {
+    margin: 5px 0;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select, form textarea {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    background: #333;
+    color: #f4f4f4;
+    border-radius: 3px;
+}
+
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0b76d3;
+}
+
+.success-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 3px;
+}
+
+form select{
+    width: 98.9%;
+}
