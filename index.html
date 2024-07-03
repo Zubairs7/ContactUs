@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Whether you have a question about our services, pricing, need assistance, or just want to talk, we are here to help.</p>
+
+        <div class="contact-info">
+            <h2>Contact Information:</h2>
+            <p><strong>Phone:</strong> <a href="tel:18001234567">6969-696-69</a></p>
+            <p><strong>Email:</strong> <a href="mailto:support@example.com">support@gmail.com</a></p>
+            <p><strong>Address:</strong> 69 Main Street, Moscowada , India</p>
+            <p><strong>Social Media:</strong> 
+                <a href="#">Facebook</a>, 
+                <a href="#">Twitter</a>, 
+                <a href="#">LinkedIn</a>
+            </p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Get in Touch:</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="general">General Inquiry</option>
+                    <option value="support">Support</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="successMessage" class="success-message" style="display: none;">
+                Your request has been sent successfully.
+            </div>
+        </div>
+
+        <div class="additional-info">
+            <h2>Additional Information:</h2>
+            <p><strong>FAQs:</strong> Have a question? Check out our <a href="#">FAQs</a> for quick answers to common questions.</p>
+            <p><strong>Live Chat:</strong> Need immediate assistance? Start a <a href="#">Live Chat</a> now.</p>
+            <p><strong>Business Hours:</strong> We are available Monday to Friday from 9 AM to 6 PM.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
